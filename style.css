@@ -7,3 +7,45 @@ body{
     color: white;
     text-align: center;
 }
+
+#rock{
+    gap: 4rem;
+    margin-top: 20px;
+    background-image: url("img/rock.webp");
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+   
+}
+#paper{
+    gap: 4rem;
+    margin-top: 20px;
+    background-image: url("img/paper.webp");
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+}
+#scissors{
+    gap: 4rem;
+    margin-top: 20px;
+    background-image: url("img/scissor.webp");
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+}
+#replay-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

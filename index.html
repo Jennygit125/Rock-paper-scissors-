@@ -12,12 +12,19 @@
        <h1>Rock Paper Scissors</h1>
        <div class="game-container">
            <div class="choices">
-               <button id="rock" class="choice" onclick="playGame('rock')">Rock</button>
-               <button id="paper" class="choice" onclick="playGame('paper')">Paper</button>
-               <button id="scissors" class="choice" onclick="playGame('scissors')">Scissors</button>
+               <button id="rock" class="choice">Rock</button>
+               <button id="paper" class="choice">Paper</button>
+               <button id="scissors" class="choice">Scissors</button>
+            </div>
+           <div class="display">
+               <span id="player-choice">Player: </span>
+                <span id="computer-choice">Computer: </span>
            </div>
            <div class="result">
-               <p id="result-text">Make your choice!</p>
+                <span id="player-score">Player: 0</span>
+                <span id="computer-score">Computer: 0</span>
+                    <p id="result-text">Make your choice!</p>
+                    <p id="match-result"></p>
            </div>
         
        <script src="script.js" defer></script>
